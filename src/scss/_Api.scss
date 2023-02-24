@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+$font-family-base:'Poppins';
+
+$utilities:(
+    "w":(
+        property:width,
+        class:w,
+        values:(
+           
+            30:30%,
+            40:40%,
+            60:60%,
+            80:80%,
+            90:90%,
+           
+           
+
+        )
+
+    )
+
+    
+  );
+

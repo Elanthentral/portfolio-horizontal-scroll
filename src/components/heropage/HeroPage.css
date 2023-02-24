@@ -1,0 +1,35 @@
+.social-icon {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.hero-card {
+  border-radius: 5px;
+  box-shadow: -15px -15px 0px rgb(120 204 109 / 30%);
+}
+.hero-img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.cardfooter {
+  justify-content: space-between;
+  display: flex;
+}
+.cardfooter a {
+  text-transform: uppercase;
+  padding: 20px;
+  font-weight: 600;
+}
+/* .cardfooter a:hover {
+  color: var(--primaryColor);
+} */
+.s-icon {
+  font-size: 25px;
+}
+
+.ani-text {
+  font-weight: 600;
+}

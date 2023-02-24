@@ -1,0 +1,95 @@
+.resume-icon {
+  font-size: 25px;
+}
+.res-title-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-bottom: solid #dee2e6 1px;
+  padding: 15px 0;
+}
+/* .cardleft-title {
+  margin-top: 0.5rem;
+} */
+.res-title-container::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(235, 233, 233);
+}
+.year-badge {
+  background-color: transparent;
+  padding: 5px 10px;
+  color: rgb(208, 207, 207);
+  border: 1px solid rgb(221, 220, 220);
+  font-weight: 600;
+  display: inline;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.edu-content {
+  margin: 20px 0;
+}
+.edu-content h5 {
+  margin-top: 15px;
+}
+.edu-content p {
+  margin-top: 5px;
+}
+.skill-content {
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.cardstyling {
+  padding: 50px;
+}
+.skill-container {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
+.skill-blog {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+}
+.skill-content-blog {
+  display: flex;
+  flex-basis: 45%;
+  margin: 10px 0;
+  align-items: center;
+  gap: 10px;
+}
+.skill-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primaryColor);
+}
+.CircularProgressbar-text {
+  text-anchor: middle !important;
+  dominant-baseline: middle;
+}
+.CircularProgressbar .CircularProgressbar-trail {
+  stroke: #d6d6d6;
+  stroke-linecap: round;
+}
+@media only screen and (max-width: 768px) {
+  .skill-blog {
+    padding: 20px 10px;
+    gap: 20px;
+  }
+  .skill-content-blog {
+    flex-basis: 100%;
+  }
+  .cardstyling {
+    padding: 30px 20px;
+  }
+}

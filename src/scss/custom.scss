@@ -1,0 +1,78 @@
+$altprimary:rgb(120, 204, 109);
+$altsecondary: #323232;
+
+$altlight:#50a3a2;
+
+$btn-font-weight:500;
+$btn-font-family:  Poppins;
+$link-color:$altsecondary;
+
+$link-decoration:                       none;
+
+$link-hover-color: $altprimary;   
+$btn-border-radius: 20px;
+$input-focus-border-color:  $altprimary;
+$input-focus-box-shadow: 0 0 0 0.25rem rgb(120 204 109 / 25%); 
+
+.btn-altprimary {
+  color: red;
+  background-color:green;
+}
+$theme-colors:(
+  "altprimary":$altprimary,
+  "altsecondary":$altsecondary,
+  "altlight":#50a3a2,
+ 
+);
+
+$gradient: linear-gradient(330deg, rgba($altprimary, 1), rgba($altlight, 1)) ;
+
+body{
+  background: $gradient;
+}
+
+
+$body-color: $altsecondary;
+$body-bg:white;
+
+
+// $link-color:$altsecondary;
+// $link-hover-color:$altprimary;
+.navbar{
+  border-radius: 15px;
+}
+.navbar-nav {
+
+  --bs-navbar-color:#323232;
+  --bs-navbar-hover-color:#78cc6d;
+  --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
+  --bs-navbar-active-color:#78cc6d;
+ 
+ 
+}
+.nav-link{
+  
+  --bs-nav-link-font-weight: 500;
+}
+
+
+
+@import "./Api.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+@import "../../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+@import "../../node_modules/bootstrap/scss/variables";
+
+// 4. Include any default map overrides here
+
+// 5. Include remainder of required parts
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/navbar";
+@import "../../node_modules/bootstrap/scss/buttons";
