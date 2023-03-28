@@ -1,5 +1,5 @@
 .about-badge {
-  /* background-color: var(--primaryColor); */
+  white-space: nowrap;
   color: white;
   padding: 0 5px;
 }
@@ -77,8 +77,7 @@
 .text:after {
   content: "";
   position: absolute;
-  right: 17px;
-  top: 36px;
+
   width: 14px;
   height: 14px;
   background: url(../../assets/images/quote.svg) 0 0 / contain no-repeat;

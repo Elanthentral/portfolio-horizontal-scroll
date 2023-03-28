@@ -8,17 +8,17 @@ function AboutContent() {
     <>
       <div className="about-container ">
         <div className="abt-content border">
-          <div className="col-lg-6 border-end abt-left">
+          <div className="col-lg-6 col-12 border-end abt-left">
             <p className="abt-des ">
               I am Elanthentral, UI Developer from India, TamilNadu. I have rich
               experience in web site Developement .I love to talk with you about
               our unique.
             </p>
           </div>
-          <div className="col-6 abt-right">
+          <div className="col-lg-6 col-12 abt-right">
             <div className="about-address">
               <p className="about-badge bg-altprimary">Residence. . . . .</p>
-              <p>India TamilNadu</p>
+              <p className="text-end">India TamilNadu</p>
             </div>
             <div className="about-address">
               <p className="about-badge bg-altprimary">Freelance . . . . .</p>
